@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:text="Location 101"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -34,6 +35,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="186dp"
         android:text="Latitude:"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +47,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="28dp"
         android:text="Longitude:"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/latTextView" />
@@ -56,6 +59,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="31dp"
         android:text="Accuracy: "
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/longTextView" />
@@ -67,6 +71,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="40dp"
         android:text="Altitude:"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/accTextView" />
@@ -78,6 +83,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="40dp"
         android:text="Address:"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/altTextView" />
